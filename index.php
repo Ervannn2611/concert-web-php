@@ -8,25 +8,34 @@
   </head>
   <body>
 
+    <?php
+        include("navbar.php");
+    ?>
+    
+       
+    <!-- rekomendasi konser section  -->
+
+    <div class="container py-5">
+        <h3 class="text-center mb-4">Rekomendasi Konser </h3>
+        <div class="row" style="row-gap:20px">
+            <div class="col-4">
+
+                <div class="card">
+                    <img src="../assets/img/concert.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Konser Black Pink</h5>
+                        <hr>
+                        <p class="card-text m-0">12 Januari 2024</p>
+                        <h6 class="card-title mb-3 text-success" >Rp 50.000</h6>
 
 
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link ">About</a>
-                <a class="nav-link" href="#">Daftar Konser</a>
-                <a class="nav-link" href="#">Gallery</a>
-                <a class="nav-link ">Testimoni</a>
+                        <a href="../detail-concert.php" class="d-block btn btn-outline-primary w-full">Pesan Tiket</a>
+                    </div>    
+                </div>
             </div>
-            </div>
+
         </div>
-    </nav>
+    </div>
 
 
 
